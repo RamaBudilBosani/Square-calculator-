@@ -1,0 +1,5 @@
+t = int(input("Give the number: "))
+def square(x):
+    t = x**2
+    return (f"Applying square to {x} gives {t}.")
+print(square(t))
